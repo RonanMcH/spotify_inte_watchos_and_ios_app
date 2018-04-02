@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97EC674F207250B9001FB9A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EC674E207250B9001FB9A9 /* AppDelegate.swift */; };
+		97EC6751207250B9001FB9A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EC6750207250B9001FB9A9 /* ViewController.swift */; };
+		97EC6754207250BA001FB9A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97EC6752207250BA001FB9A9 /* Main.storyboard */; };
+		97EC6756207250BA001FB9A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97EC6755207250BA001FB9A9 /* Assets.xcassets */; };
+		97EC6759207250BA001FB9A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97EC6757207250BA001FB9A9 /* LaunchScreen.storyboard */; };
+		97EC6766207250EE001FB9A9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97EC6764207250EE001FB9A9 /* Interface.storyboard */; };
+		97EC6768207250EE001FB9A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97EC6767207250EE001FB9A9 /* Assets.xcassets */; };
+		97EC676F207250EE001FB9A9 /* RonifyWatchApp Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 97EC676E207250EE001FB9A9 /* RonifyWatchApp Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		97EC6774207250EE001FB9A9 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EC6773207250EE001FB9A9 /* InterfaceController.swift */; };
+		97EC6776207250EE001FB9A9 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EC6775207250EE001FB9A9 /* ExtensionDelegate.swift */; };
+		97EC6778207250EE001FB9A9 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EC6777207250EE001FB9A9 /* NotificationController.swift */; };
+		97EC677A207250EE001FB9A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97EC6779207250EE001FB9A9 /* Assets.xcassets */; };
+		97EC677F207250EE001FB9A9 /* RonifyWatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 97EC6762207250ED001FB9A9 /* RonifyWatchApp.app */; };
+		97EC678B20725329001FB9A9 /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EC678820725329001FB9A9 /* SpotifyMetadata.framework */; };
+		97EC678C20725329001FB9A9 /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EC678920725329001FB9A9 /* SpotifyAudioPlayback.framework */; };
+		97EC678F20725337001FB9A9 /* SpotifyAudioPlayback.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97EC678920725329001FB9A9 /* SpotifyAudioPlayback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97EC679020725337001FB9A9 /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EC678A20725329001FB9A9 /* SpotifyAuthentication.framework */; };
+		97EC679120725337001FB9A9 /* SpotifyAuthentication.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97EC678A20725329001FB9A9 /* SpotifyAuthentication.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97EC679320725337001FB9A9 /* SpotifyMetadata.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97EC678820725329001FB9A9 /* SpotifyMetadata.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97EC6797207253B3001FB9A9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EC6796207253B3001FB9A9 /* AVFoundation.framework */; };
+		97EC679820725432001FB9A9 /* AVFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97EC6796207253B3001FB9A9 /* AVFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		97EC67D5207267BC001FB9A9 /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EC678920725329001FB9A9 /* SpotifyAudioPlayback.framework */; };
+		97EC67D6207267BC001FB9A9 /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EC678A20725329001FB9A9 /* SpotifyAuthentication.framework */; };
+		97EC67D7207267BC001FB9A9 /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EC678820725329001FB9A9 /* SpotifyMetadata.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97EC6770207250EE001FB9A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97EC6743207250B9001FB9A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97EC676D207250EE001FB9A9;
+			remoteInfo = "RonifyWatchApp Extension";
+		};
+		97EC677D207250EE001FB9A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97EC6743207250B9001FB9A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97EC6761207250ED001FB9A9;
+			remoteInfo = RonifyWatchApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		97EC6783207250EE001FB9A9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				97EC676F207250EE001FB9A9 /* RonifyWatchApp Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EC6787207250EE001FB9A9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				97EC677F207250EE001FB9A9 /* RonifyWatchApp.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EC679420725338001FB9A9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				97EC679820725432001FB9A9 /* AVFoundation.framework in Embed Frameworks */,
+				97EC678F20725337001FB9A9 /* SpotifyAudioPlayback.framework in Embed Frameworks */,
+				97EC679320725337001FB9A9 /* SpotifyMetadata.framework in Embed Frameworks */,
+				97EC679120725337001FB9A9 /* SpotifyAuthentication.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		97EC674B207250B9001FB9A9 /* Ronify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ronify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EC674E207250B9001FB9A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97EC6750207250B9001FB9A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97EC6753207250BA001FB9A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97EC6755207250BA001FB9A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97EC6758207250BA001FB9A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97EC675A207250BA001FB9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97EC6762207250ED001FB9A9 /* RonifyWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RonifyWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EC6765207250EE001FB9A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		97EC6767207250EE001FB9A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97EC6769207250EE001FB9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97EC676E207250EE001FB9A9 /* RonifyWatchApp Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RonifyWatchApp Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EC6773207250EE001FB9A9 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		97EC6775207250EE001FB9A9 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		97EC6777207250EE001FB9A9 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		97EC6779207250EE001FB9A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97EC677B207250EE001FB9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97EC677C207250EE001FB9A9 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		97EC678820725329001FB9A9 /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyMetadata.framework; sourceTree = "<group>"; };
+		97EC678920725329001FB9A9 /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
+		97EC678A20725329001FB9A9 /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
+		97EC6796207253B3001FB9A9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		97EC67D420725943001FB9A9 /* Ronify-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ronify-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97EC6748207250B9001FB9A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EC6797207253B3001FB9A9 /* AVFoundation.framework in Frameworks */,
+				97EC679020725337001FB9A9 /* SpotifyAuthentication.framework in Frameworks */,
+				97EC678B20725329001FB9A9 /* SpotifyMetadata.framework in Frameworks */,
+				97EC678C20725329001FB9A9 /* SpotifyAudioPlayback.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EC676B207250EE001FB9A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EC67D5207267BC001FB9A9 /* SpotifyAudioPlayback.framework in Frameworks */,
+				97EC67D7207267BC001FB9A9 /* SpotifyMetadata.framework in Frameworks */,
+				97EC67D6207267BC001FB9A9 /* SpotifyAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97EC6742207250B9001FB9A9 = {
+			isa = PBXGroup;
+			children = (
+				97EC674D207250B9001FB9A9 /* Ronify */,
+				97EC6763207250EE001FB9A9 /* RonifyWatchApp */,
+				97EC6772207250EE001FB9A9 /* RonifyWatchApp Extension */,
+				97EC674C207250B9001FB9A9 /* Products */,
+				97EC6795207253B3001FB9A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		97EC674C207250B9001FB9A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97EC674B207250B9001FB9A9 /* Ronify.app */,
+				97EC6762207250ED001FB9A9 /* RonifyWatchApp.app */,
+				97EC676E207250EE001FB9A9 /* RonifyWatchApp Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97EC674D207250B9001FB9A9 /* Ronify */ = {
+			isa = PBXGroup;
+			children = (
+				97EC678920725329001FB9A9 /* SpotifyAudioPlayback.framework */,
+				97EC678A20725329001FB9A9 /* SpotifyAuthentication.framework */,
+				97EC678820725329001FB9A9 /* SpotifyMetadata.framework */,
+				97EC674E207250B9001FB9A9 /* AppDelegate.swift */,
+				97EC6750207250B9001FB9A9 /* ViewController.swift */,
+				97EC6752207250BA001FB9A9 /* Main.storyboard */,
+				97EC6755207250BA001FB9A9 /* Assets.xcassets */,
+				97EC6757207250BA001FB9A9 /* LaunchScreen.storyboard */,
+				97EC675A207250BA001FB9A9 /* Info.plist */,
+				97EC67D420725943001FB9A9 /* Ronify-Bridging-Header.h */,
+			);
+			path = Ronify;
+			sourceTree = "<group>";
+		};
+		97EC6763207250EE001FB9A9 /* RonifyWatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				97EC6764207250EE001FB9A9 /* Interface.storyboard */,
+				97EC6767207250EE001FB9A9 /* Assets.xcassets */,
+				97EC6769207250EE001FB9A9 /* Info.plist */,
+			);
+			path = RonifyWatchApp;
+			sourceTree = "<group>";
+		};
+		97EC6772207250EE001FB9A9 /* RonifyWatchApp Extension */ = {
+			isa = PBXGroup;
+			children = (
+				97EC6773207250EE001FB9A9 /* InterfaceController.swift */,
+				97EC6775207250EE001FB9A9 /* ExtensionDelegate.swift */,
+				97EC6777207250EE001FB9A9 /* NotificationController.swift */,
+				97EC6779207250EE001FB9A9 /* Assets.xcassets */,
+				97EC677B207250EE001FB9A9 /* Info.plist */,
+				97EC677C207250EE001FB9A9 /* PushNotificationPayload.apns */,
+			);
+			path = "RonifyWatchApp Extension";
+			sourceTree = "<group>";
+		};
+		97EC6795207253B3001FB9A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97EC6796207253B3001FB9A9 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97EC674A207250B9001FB9A9 /* Ronify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97EC675D207250BA001FB9A9 /* Build configuration list for PBXNativeTarget "Ronify" */;
+			buildPhases = (
+				97EC6747207250B9001FB9A9 /* Sources */,
+				97EC6748207250B9001FB9A9 /* Frameworks */,
+				97EC6749207250B9001FB9A9 /* Resources */,
+				97EC6787207250EE001FB9A9 /* Embed Watch Content */,
+				97EC679420725338001FB9A9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97EC677E207250EE001FB9A9 /* PBXTargetDependency */,
+			);
+			name = Ronify;
+			productName = Ronify;
+			productReference = 97EC674B207250B9001FB9A9 /* Ronify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97EC6761207250ED001FB9A9 /* RonifyWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97EC6784207250EE001FB9A9 /* Build configuration list for PBXNativeTarget "RonifyWatchApp" */;
+			buildPhases = (
+				97EC6760207250ED001FB9A9 /* Resources */,
+				97EC6783207250EE001FB9A9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97EC6771207250EE001FB9A9 /* PBXTargetDependency */,
+			);
+			name = RonifyWatchApp;
+			productName = RonifyWatchApp;
+			productReference = 97EC6762207250ED001FB9A9 /* RonifyWatchApp.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		97EC676D207250EE001FB9A9 /* RonifyWatchApp Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97EC6780207250EE001FB9A9 /* Build configuration list for PBXNativeTarget "RonifyWatchApp Extension" */;
+			buildPhases = (
+				97EC676A207250EE001FB9A9 /* Sources */,
+				97EC676B207250EE001FB9A9 /* Frameworks */,
+				97EC676C207250EE001FB9A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RonifyWatchApp Extension";
+			productName = "RonifyWatchApp Extension";
+			productReference = 97EC676E207250EE001FB9A9 /* RonifyWatchApp Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97EC6743207250B9001FB9A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ronan Mchugh";
+				TargetAttributes = {
+					97EC674A207250B9001FB9A9 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					97EC6761207250ED001FB9A9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					97EC676D207250EE001FB9A9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 97EC6746207250B9001FB9A9 /* Build configuration list for PBXProject "Ronify" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97EC6742207250B9001FB9A9;
+			productRefGroup = 97EC674C207250B9001FB9A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97EC674A207250B9001FB9A9 /* Ronify */,
+				97EC6761207250ED001FB9A9 /* RonifyWatchApp */,
+				97EC676D207250EE001FB9A9 /* RonifyWatchApp Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97EC6749207250B9001FB9A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EC6759207250BA001FB9A9 /* LaunchScreen.storyboard in Resources */,
+				97EC6756207250BA001FB9A9 /* Assets.xcassets in Resources */,
+				97EC6754207250BA001FB9A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EC6760207250ED001FB9A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EC6768207250EE001FB9A9 /* Assets.xcassets in Resources */,
+				97EC6766207250EE001FB9A9 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EC676C207250EE001FB9A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EC677A207250EE001FB9A9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97EC6747207250B9001FB9A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EC6751207250B9001FB9A9 /* ViewController.swift in Sources */,
+				97EC674F207250B9001FB9A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EC676A207250EE001FB9A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EC6778207250EE001FB9A9 /* NotificationController.swift in Sources */,
+				97EC6776207250EE001FB9A9 /* ExtensionDelegate.swift in Sources */,
+				97EC6774207250EE001FB9A9 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97EC6771207250EE001FB9A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97EC676D207250EE001FB9A9 /* RonifyWatchApp Extension */;
+			targetProxy = 97EC6770207250EE001FB9A9 /* PBXContainerItemProxy */;
+		};
+		97EC677E207250EE001FB9A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97EC6761207250ED001FB9A9 /* RonifyWatchApp */;
+			targetProxy = 97EC677D207250EE001FB9A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97EC6752207250BA001FB9A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97EC6753207250BA001FB9A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97EC6757207250BA001FB9A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97EC6758207250BA001FB9A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		97EC6764207250EE001FB9A9 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97EC6765207250EE001FB9A9 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97EC675B207250BA001FB9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97EC675C207250BA001FB9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97EC675E207250BA001FB9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2L36H8TN3X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ronify",
+				);
+				INFOPLIST_FILE = Ronify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-Objc";
+				PRODUCT_BUNDLE_IDENTIFIER = zendesk.Ronify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ronify/Ronify-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97EC675F207250BA001FB9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2L36H8TN3X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ronify",
+				);
+				INFOPLIST_FILE = Ronify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-Objc";
+				PRODUCT_BUNDLE_IDENTIFIER = zendesk.Ronify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ronify/Ronify-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		97EC6781207250EE001FB9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2L36H8TN3X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ronify",
+				);
+				INFOPLIST_FILE = "RonifyWatchApp Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zendesk.Ronify.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		97EC6782207250EE001FB9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2L36H8TN3X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Ronify",
+				);
+				INFOPLIST_FILE = "RonifyWatchApp Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zendesk.Ronify.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		97EC6785207250EE001FB9A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2L36H8TN3X;
+				IBSC_MODULE = RonifyWatchApp_Extension;
+				INFOPLIST_FILE = RonifyWatchApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = zendesk.Ronify.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		97EC6786207250EE001FB9A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2L36H8TN3X;
+				IBSC_MODULE = RonifyWatchApp_Extension;
+				INFOPLIST_FILE = RonifyWatchApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = zendesk.Ronify.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97EC6746207250B9001FB9A9 /* Build configuration list for PBXProject "Ronify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EC675B207250BA001FB9A9 /* Debug */,
+				97EC675C207250BA001FB9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97EC675D207250BA001FB9A9 /* Build configuration list for PBXNativeTarget "Ronify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EC675E207250BA001FB9A9 /* Debug */,
+				97EC675F207250BA001FB9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97EC6780207250EE001FB9A9 /* Build configuration list for PBXNativeTarget "RonifyWatchApp Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EC6781207250EE001FB9A9 /* Debug */,
+				97EC6782207250EE001FB9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97EC6784207250EE001FB9A9 /* Build configuration list for PBXNativeTarget "RonifyWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EC6785207250EE001FB9A9 /* Debug */,
+				97EC6786207250EE001FB9A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97EC6743207250B9001FB9A9 /* Project object */;
+}
